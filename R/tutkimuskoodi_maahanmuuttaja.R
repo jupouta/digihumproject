@@ -41,7 +41,7 @@ dtms <- removeSparseTerms(dtm, 0.1)
 freq <- colSums(as.matrix(dtms))
 freq <- sort(colSums(as.matrix(dtm)), decreasing=TRUE)
 
-# the plot
+# the plot: not needed to do the wordcloud, but is useful for seeing the frequencies
 library(ggplot2)
 wf <- data.frame(word=names(freq), freq=freq)
 
