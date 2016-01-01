@@ -12,7 +12,7 @@ The documents contain
   - two separate files for "maahanmuuttaja" and "pakolainen"
   - two R files for each word.
 
-From the pictures created, one can see certain resemblance between the two words, but certain differences as well. I will list some of them here:
+In the pictures created, one can see certain resemblance between the two words, but certain differences as well. I will list some of them here:
   - maahanmuuttaja contains a lot of the word "klo", which is probably due to the TV program tables included in the data. Interesting      though that apparently, there has been fairly many programs having something to do with immigrants.
   - Kosovo has been mentioned more with pakolainen than with maahanmuuttaja.
   - Both words include the city Mikkeli with its inflective forms.
