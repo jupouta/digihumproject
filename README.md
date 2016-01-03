@@ -1,5 +1,5 @@
 # digihumproject
-_This is a project made for the course "Introduction to digital humanities"_
+_This is a project made for the course "Introduction to Digital Humanities"_
 
 ## Data
 I used the newspaper collection (KLK) from the Korp API in this project. The collection contains newspaper articles from the 19th century to the 21st century. I searched two words, **_maahanmuuttaja_** and **_pakolainen_**, in the newspapers from the year 1970 to the present day.
