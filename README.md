@@ -7,7 +7,7 @@ I used the newspaper collection (KLK) from the Korp API in this project. The col
 ## What I did with it
 First, I used Python to get the search results from Korp API with json. This data was then filtered to get only the results of the needed sentences.
 
-To process the files, I used R. I preprocessed the data in order to get it in a usable form, e.g. deleted stopwords and punctuation, and then I used it to create wordclouds for each word, "maahanmuuttaja" and "pakolainen".
+To process the files, I used R. I preprocessed the data in order to get it in a usable form, e.g. deleted stopwords and punctuation, and then I used it to create wordclouds for each word, _maahanmuuttaja_ and _pakolainen_. Here's the webpage I used for reference to do all this [https://rstudio-pubs-static.s3.amazonaws.com/31867_8236987cf0a8444e962ccd2aec46d9c3.html].
 
 The documents contain
   - a Python file
