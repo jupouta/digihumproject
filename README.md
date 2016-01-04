@@ -22,7 +22,7 @@ Maahanmuuttaja: https://github.com/jupouta/digihumproject/blob/master/R/maahanmu
 Pakolainen: https://github.com/jupouta/digihumproject/blob/master/R/pakolainen_plot.pdf
 
   - _maahanmuuttaja_ contains a lot of the word _klo_, which is probably due to the TV program tables included in the data. Interesting though that apparently, there has been fairly many programs having something to do with immigrants.
-  - Kosovo has been mentioned more with _pakolainen_ than with _maahanmuuttaja_.
+  - Kosovo has been mentioned more with _pakolainen_ than with _maahanmuuttaja_. The same goes with UN (YK in Finnish), which means that when refugees are discussed, it has something to do with international events.
   - Both words include the city of Mikkeli with its inflective forms.
-  - In _maahanmuuttaja_, the words with the highest frequency have something to do with either Finland or the Finnish people, which seem to somehow be opposites to each other.
+  - In _maahanmuuttaja_, the words with the highest frequency have something to do with either Finland or the Finnish people, which seem to somehow be opposites to each other. This is also a difference between _pakolainen_ and _maahanmuuttaja_ (mentioned above).
   - The stopwords list in R isn't sufficient enough, since e.g. _hänen_, _sen_, and _hän_ can be seen on the final results. This could be solved by manually adding a list of words that shouldn't be included in the analysis, but that is a) a lot of work and b) a bit difficult with Finnish. I did "delete" some of the words, for instance _myös_, since it twisted the results a bit. 
