@@ -15,11 +15,10 @@ First, I used Python to get the search results from Korp API with json. This dat
 To process the files, I used R. I preprocessed the data in order to get it in a usable form, e.g. deleted stopwords and punctuation, and then I used it to create wordclouds for each word, _maahanmuuttaja_ and _pakolainen_. [Here](https://rstudio-pubs-static.s3.amazonaws.com/31867_8236987cf0a8444e962ccd2aec46d9c3.html)'s the webpage I used for reference to do all the code for _maahanmuuttaja_ and for _pakolainen_, which can be seen [here](https://github.com/jupouta/digihumproject/blob/master/R/tutkimuskoodi_maahanmuuttaja.R) and [here](https://github.com/jupouta/digihumproject/blob/master/R/tutkimuskoodi_pakolainen.R).
 
 ## What the results show
+Here are links to the pictures of the created wordclouds:
+[maahanmuuttaja] (https://github.com/jupouta/digihumproject/blob/master/R/maahanmuuttaja_plot.pdf) and [pakolainen](https://github.com/jupouta/digihumproject/blob/master/R/pakolainen_plot.pdf)
+
 In the pictures created, one can see certain resemblance between the two words, but certain differences as well. I will list some of them here:
-
-Maahanmuuttaja: https://github.com/jupouta/digihumproject/blob/master/R/maahanmuuttaja_plot.pdf
-
-Pakolainen: https://github.com/jupouta/digihumproject/blob/master/R/pakolainen_plot.pdf
 
   - A quite an important difference between _pakolainen_ and _maahanmuuttaja_ seems to be the fact that _pakolainen_ is more related to international events, e.g. Kosovo and UN (YK in Finnish), and refugees, while _maahanmuuttaja_ has something to do with either Finland of the Finnish people (and it seems that they are somehow opposites to immigrants).
   - _maahanmuuttaja_ contains the city of Mikkeli with its inflective forms; in _pakolainen_, Länsisavo is mentioned, the area where Mikkeli is located.
