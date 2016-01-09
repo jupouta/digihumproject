@@ -1,10 +1,10 @@
 # digihumproject
 _This is a project made for the course "Introduction to Digital Humanities"_
 
-(The documents contain
+The documents contain
   - a Python file
   - two separate image files of the search results of _maahanmuuttaja_ and _pakolainen_
-  - two R files of the code for each word.)
+  - two R files of the code for each word.
 
 ## Data
 I used the newspaper collection (KLK) from the [Korp API](https://kitwiki.csc.fi/twiki/bin/view/FinCLARIN/KielipankkiHelpKorpWebService) in this project. The collection contains newspaper articles from the 19th century to the 21st century. I searched two words, **_maahanmuuttaja_** and **_pakolainen_**, in the newspapers from the year 1970 to the present day.
